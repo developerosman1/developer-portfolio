@@ -40,6 +40,19 @@ body {
     border: 1px solid transparent;
     color: #fff;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e7c7c;
+    text-align: center;
+}
 /* Header */
 .header{
     background-color: #FFF8F3;
@@ -47,6 +60,11 @@ body {
     background-repeat: no-repeat;
     background-position: bottom left, bottom right;
     background-size: auto;
+}
+/* main */
+main {
+    width: 1140px;
+    margin: 0 auto;
 }
 
 /* Navigation Area */
@@ -111,4 +129,24 @@ body {
 .banner-image img {
     width: 584px;
     height: auto;
+}
+/* About me */
+.about-me{
+    margin: 60px 0 ;
+    padding: 80px;
+    background-color: #FFF8F3;
+}
+.about-me-info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.info-label {
+    color: #474747;
+}
+.info {
+    color: #000;
+    font-weight: 900;
 }
