@@ -1,8 +1,8 @@
-*{
+* {
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,31 +13,62 @@ body{
 
 .primary-btn {
     background-color: #FD6E0A;
-    border: none;
+    border: 1px solid transparent;
     padding: 18px 36px;
     color: #fff;
     font-size: 20px;
+    border-radius: 5px;
+}
+
+.primary-btn:hover {
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 18px 36px;
+}
+
+.secondary-btn:hover {
+    background-color: #FD6E0A;
+    border: 1px solid transparent;
+    color: #fff;
+}
+/* Header */
+.header{
+    background-color: #FFF8F3;
+    background-image: url("/images/developer.png"), url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+    background-size: auto;
 }
 
 /* Navigation Area */
 .navigation {
     display: flex;
     justify-content: space-between;
-    padding-top: 51px;
-    padding-left: 20px;
+    padding: 51px 150px 10px 150px;
     align-items: center;
 
 }
+
 .navigation .navigation-title {
     font-size: 45px;
     font-weight: 800;
 }
 
-.navigation ul{
+.navigation ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
+
 .navigation ul li {
     margin-left: 10px;
 }
@@ -47,4 +78,37 @@ body{
     color: #474747;
     font-size: 20px;
     padding: 10px 20px;
+}
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 0px 150px;
+    align-items: center;
+    
+}
+.banner-greeting{
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.banner-titile{
+    font-size: 50px;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 30px;
+}
+.banner-content {
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
+    margin-bottom: 30px;
+}
+.banner-image{
+    max-height: 676px;
+}
+.banner-image img {
+    width: 584px;
+    height: auto;
 }
