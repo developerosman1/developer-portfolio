@@ -150,3 +150,33 @@ main {
     color: #000;
     font-weight: 900;
 }
+/* What I do */
+.what-i-do .section-content{
+    padding: 0 100px;
+    text-align: center;
+}
+.service-list{
+    background-color: #FFF8F3;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+}
+.services {
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 30px;
+}
+.service-image{
+    width: 44px;
+    height: 44px;
+}
+.service-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.service-description{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
