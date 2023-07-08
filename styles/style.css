@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 1140px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Shared Style */
+.orange-text {
+    color: orange;
+}
